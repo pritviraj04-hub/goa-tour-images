@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goa Educational Tour – Podar International School (ICSE), Nerul</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="pdf-content">
+  <!-- ===== STICKY NAV ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <span class="nav-brand">Goa Educational Tour <span class="nav-year">2026</span></span>
+      <ul class="nav-links">
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#itinerary">Itinerary</a></li>
+        <li><a href="#places">Places</a></li>
+        <li><a href="#hotel">Hotel</a></li>
+        <li><a href="#safety">Safety</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-logo left-logo">
+       <div class="logo-box">
+        <img src="https://raw.githubusercontent.com/pritviraj04-hub/goa-tour-images/main/tour-india-logo.png" class="logo" alt="Tour India Logo">
+       </div>
+      </div>
+      <div class="header-center">
+        <span class="header-tag">Educational Tour</span>
+        <h1 class="header-title">GOA EDUCATIONAL TOUR</h1>
+        <p class="header-school">Podar International School (ICSE), Nerul</p>
+        <div class="header-meta">
+          <span class="meta-pill">Grades X – XII</span>
+          <span class="meta-pill">7 Sep – 9 Sep 2026</span>
+          <span class="meta-pill">3 Days / 2 Nights</span>
+        </div>
+      </div>
+      <div class="header-logo right-logo">
+        <img src="https://raw.githubusercontent.com/pritviraj04-hub/goa-tour-images/main/school-logo.png" class="logo" alt="School Logo" />
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" style="background-image:url('https://raw.githubusercontent.com/pritviraj04-hub/goa-tour-images/main/hero-goa.jpg')"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow animate-fade-up delay-1">Podar International School (ICSE), Nerul</p>
+      <h2 class="hero-headline animate-fade-up delay-2">Learning Beyond<br /><em>Classroom</em></h2>
+      <div class="hero-divider animate-fade-up delay-3"></div>
+      <p class="hero-sub animate-fade-up delay-4">Goa Educational Tour — An experiential journey combining<br />culture, heritage and environmental learning.</p>
+      <div class="hero-cta animate-fade-up delay-5">
+        <a href="#overview" class="btn-primary">Explore Tour</a>
+        <a href="#itinerary" class="btn-outline">View Itinerary</a>
+        <button onclick="downloadPDF()" class="btn-primary">
+          Download Tour PDF
+        </button>
+      </div>
+      <div class="hero-stats animate-fade-up delay-5">
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">Days</span></div>
+        <div class="stat-sep"></div>
+        <div class="stat"><span class="stat-num">6+</span><span class="stat-label">Experiences</span></div>
+        <div class="stat-sep"></div>
+        <div class="stat"><span class="stat-num">X–XII</span><span class="stat-label">Grades</span></div>
+      </div>
+    </div>
+    <a href="#overview" class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </a>
+  </section>
+
+  <!-- ===== OVERVIEW ===== -->
+  <section class="section overview-section" id="overview">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">At a Glance</span>
+        <h2 class="section-title">Tour Overview</h2>
+        <p class="section-sub">Everything you need to know about this enriching educational journey</p>
+      </div>
+      <div class="overview-grid">
+        <div class="overview-card">
+          <div class="ov-icon">📍</div>
+          <div class="ov-body">
+            <p class="ov-label">Destination</p>
+            <h3 class="ov-value">Goa, India</h3>
+            <p class="ov-desc">The Pearl of the Orient — culture, heritage & ecology</p>
+          </div>
+        </div>
+        <div class="overview-card featured">
+          <div class="ov-icon">🏨</div>
+          <div class="ov-body">
+            <p class="ov-label">Accommodation</p>
+            <h3 class="ov-value">Hotel Ramada Arpora</h3>
+            <p class="ov-desc">Premium stay with world-class facilities &amp; safety</p>
+          </div>
+        </div>
+        <div class="overview-card">
+          <div class="ov-icon">🚆</div>
+          <div class="ov-body">
+            <p class="ov-label">Travel Mode</p>
+            <h3 class="ov-value">Vande Bharat Express</h3>
+            <p class="ov-desc">Modern semi-high-speed train for a comfortable ride</p>
+          </div>
+        </div>
+        <div class="overview-card">
+          <div class="ov-icon">📅</div>
+          <div class="ov-body">
+            <p class="ov-label">Duration</p>
+            <h3 class="ov-value">3 Days / 2 Nights</h3>
+            <p class="ov-desc">7 September – 9 September 2026</p>
+          </div>
+        </div>
+        <div class="overview-card">
+          <div class="ov-icon">🎓</div>
+          <div class="ov-body">
+            <p class="ov-label">Eligible Grades</p>
+            <h3 class="ov-value">Grade X to XII</h3>
+            <p class="ov-desc">Open to all students of Grades 10, 11, and 12</p>
+          </div>
+        </div>
+        <div class="overview-card">
+          <div class="ov-icon">🏫</div>
+          <div class="ov-body">
+            <p class="ov-label">Organised By</p>
+            <h3 class="ov-value">Tour India Travels</h3>
+            <p class="ov-desc">Educational tour specialists since 1985</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ITINERARY ===== -->
+  <section class="section itinerary-section" id="itinerary">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">Day by Day</span>
+        <h2 class="section-title">Tour Itinerary</h2>
+        <p class="section-sub">A perfectly crafted educational experience across three days</p>
+      </div>
+
+      <div class="timeline">
+        <!-- DAY 01 -->
+        <div class="timeline-day">
+          <div class="day-badge">
+            <span class="day-num">01</span>
+            <span class="day-label">Day</span>
+          </div>
+          <div class="day-content">
+            <div class="day-header">
+              <h3 class="day-title">Departure & Arrival</h3>
+              <span class="day-date">7 September 2026 — Monday</span>
+            </div>
+            <div class="events">
+              <div class="event">
+                <div class="event-time">04:00</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">Assemble at CST</p>
+                  <p class="event-desc">Students assemble at Chhatrapati Shivaji Maharaj Terminus, Mumbai</p>
+                </div>
+              </div>
+              <div class="event">
+                <div class="event-time">05:00</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">Board Vande Bharat Express</p>
+                  <p class="event-desc">Board the prestigious Vande Bharat Express for a comfortable journey</p>
+                </div>
+              </div>
+              <div class="event highlight">
+                <div class="event-time">05:25</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">🚆 Train Departs</p>
+                  <p class="event-desc">Departure from Mumbai — all aboard!</p>
+                </div>
+              </div>
+              <div class="event highlight">
+                <div class="event-time">12:05</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">🏨 Arrive Goa — Hotel Check-in</p>
+                  <p class="event-desc">Arrive Goa, transfer to Hotel Ramada Arpora &amp; freshen up</p>
+                </div>
+              </div>
+              <div class="event">
+                <div class="event-time">16:00</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">🎨 Contemporary Art Museum</p>
+                  <p class="event-desc">Explore modern Goan art &amp; cultural exhibitions</p>
+                </div>
+              </div>
+              <div class="event">
+                <div class="event-time">18:30</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">🏘️ Heritage Walk — Fontainhas</p>
+                  <p class="event-desc">Guided heritage walk through Goa's iconic Latin Quarter</p>
+                </div>
+              </div>
+              <div class="event">
+                <div class="event-time">19:30</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">☕ Hi Tea</p>
+                  <p class="event-desc">Evening refreshments &amp; relaxation</p>
+                </div>
+              </div>
+              <div class="event">
+                <div class="event-time">20:30</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">🍽️ Dinner &amp; Overnight Stay</p>
+                  <p class="event-desc">Dinner at hotel followed by overnight stay at Hotel Ramada</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DAY 02 -->
+        <div class="timeline-day">
+          <div class="day-badge day2">
+            <span class="day-num">02</span>
+            <span class="day-label">Day</span>
+          </div>
+          <div class="day-content">
+            <div class="day-header">
+              <h3 class="day-title">Forts, Beach &amp; Culture</h3>
+              <span class="day-date">8 September 2026 — Tuesday</span>
+            </div>
+            <div class="events">
+              <div class="event">
+                <div class="event-time">06:30</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">⏰ Wake-up Call</p>
+                  <p class="event-desc">Rise and shine — a wonderful day awaits!</p>
+                </div>
+              </div>
+              <div class="event">
+                <div class="event-time">08:30</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">🍳 Breakfast</p>
+                  <p class="event-desc">Full buffet breakfast at Hotel Ramada</p>
+                </div>
+              </div>
+              <div class="event highlight">
+                <div class="event-time">09:30</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">🏰 Reis Magos Fort</p>
+                  <p class="event-desc">Explore the historic 16th-century Reis Magos Fort overlooking the Mandovi River</p>
+                </div>
+              </div>
+              <div class="event">
+                <div class="event-time">12:30</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">🍱 Lunch</p>
+                  <p class="event-desc">Traditional Goan cuisine lunch</p>
+                </div>
+              </div>
+              <div class="event highlight">
+                <div class="event-time">15:00</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">🌊 Beach Ecology — Bambolim Beach</p>
+                  <p class="event-desc">Hands-on coastal ecology session — marine life, sand dunes &amp; conservation</p>
+                </div>
+              </div>
+              <div class="event">
+                <div class="event-time">19:00</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">🎵 Music &amp; Dance Night</p>
+                  <p class="event-desc">Cultural programme — Goan folk music, dance &amp; student performances</p>
+                </div>
+              </div>
+              <div class="event">
+                <div class="event-time">21:00</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">🍽️ Dinner</p>
+                  <p class="event-desc">Dinner at hotel &amp; overnight stay</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DAY 03 -->
+        <div class="timeline-day">
+          <div class="day-badge day3">
+            <span class="day-num">03</span>
+            <span class="day-label">Day</span>
+          </div>
+          <div class="day-content">
+            <div class="day-header">
+              <h3 class="day-title">Nature, Spices &amp; Farewell</h3>
+              <span class="day-date">9 September 2026 — Wednesday</span>
+            </div>
+            <div class="events">
+              <div class="event">
+                <div class="event-time">07:00</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">⏰ Wake-up Call</p>
+                  <p class="event-desc">Good morning! Last day in Goa</p>
+                </div>
+              </div>
+              <div class="event">
+                <div class="event-time">08:00</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">🍳 Breakfast &amp; Check-out</p>
+                  <p class="event-desc">Breakfast &amp; luggage checkout from Hotel Ramada</p>
+                </div>
+              </div>
+              <div class="event highlight">
+                <div class="event-time">09:00</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">🌿 Tropical Spice Plantation</p>
+                  <p class="event-desc">Interactive tour of a tropical spice farm — botany &amp; agro-ecology session</p>
+                </div>
+              </div>
+              <div class="event">
+                <div class="event-time">13:00</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">🚌 Depart for Railway Station</p>
+                  <p class="event-desc">Transfer to Goa Railway Station</p>
+                </div>
+              </div>
+              <div class="event highlight">
+                <div class="event-time">14:40</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">🚆 Train Departs — Goa to Mumbai</p>
+                  <p class="event-desc">Board Vande Bharat Express for return journey</p>
+                </div>
+              </div>
+              <div class="event">
+                <div class="event-time">20:30</div>
+                <div class="event-dot"></div>
+                <div class="event-body">
+                  <p class="event-title">🏡 Arrive Mumbai — Journey Complete</p>
+                  <p class="event-desc">Arrival at Chhatrapati Shivaji Maharaj Terminus, Mumbai</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PLACES ===== -->
+  <section class="section places-section" id="places">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Experiences Await</span>
+        <h2 class="section-title">Places to Visit</h2>
+        <p class="section-sub">Carefully selected destinations that combine education with exploration</p>
+      </div>
+      <div class="places-grid">
+        <div class="place-card">
+          <div class="place-img-wrap">
+            <img src="https://raw.githubusercontent.com/pritviraj04-hub/goa-tour-images/main/fontainhas-walk.jpg" alt="Heritage Walk Fontainhas" loading="lazy" />
+            <div class="place-overlay">
+              <p>Latin Quarter · Art · Architecture</p>
+            </div>
+          </div>
+          <div class="place-body">
+            <span class="place-tag">Day 1 · Evening</span>
+            <h3 class="place-name">Heritage Walk — Fontainhas</h3>
+            <p class="place-desc">A guided walk through Goa's iconic Latin Quarter — colourful Portuguese-era homes, chapels and cobblestone lanes come alive at dusk.</p>
+          </div>
+        </div>
+        <div class="place-card">
+          <div class="place-img-wrap">
+            <img src="https://raw.githubusercontent.com/pritviraj04-hub/goa-tour-images/main/reis-magos.jpg" alt="Reis Magos Fort" loading="lazy" />
+            <div class="place-overlay">
+              <p>History · Architecture · Colonial Heritage</p>
+            </div>
+          </div>
+          <div class="place-body">
+            <span class="place-tag">Day 2 · Morning</span>
+            <h3 class="place-name">Reis Magos Fort</h3>
+            <p class="place-desc">A 16th-century Portuguese fort perched above the Mandovi River, offering stunning views and a window into Goa's colonial past.</p>
+          </div>
+        </div>
+        <div class="place-card">
+          <div class="place-img-wrap">
+            <img src="https://raw.githubusercontent.com/pritviraj04-hub/goa-tour-images/main/bambolim-beach.jpg" alt="Bambolim Beach" loading="lazy" />
+            <div class="place-overlay">
+              <p>Marine Ecology · Coastal Science</p>
+            </div>
+          </div>
+          <div class="place-body">
+            <span class="place-tag">Day 2 · Afternoon</span>
+            <h3 class="place-name">Bambolim Beach</h3>
+            <p class="place-desc">A serene beach ideal for coastal ecology studies — students explore marine ecosystems, sand dune formation and conservation practices.</p>
+          </div>
+        </div>
+        <div class="place-card">
+          <div class="place-img-wrap">
+            <img src="https://raw.githubusercontent.com/pritviraj04-hub/goa-tour-images/main/spice-plantation.jpg" alt="Tropical Spice Plantation" loading="lazy" />
+            <div class="place-overlay">
+              <p>Botany · Agriculture · Environment</p>
+            </div>
+          </div>
+          <div class="place-body">
+            <span class="place-tag">Day 3 · Morning</span>
+            <h3 class="place-name">Tropical Spice Plantation</h3>
+            <p class="place-desc">An immersive agricultural experience where students learn about spice cultivation, tropical botany and sustainable farming.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOTEL ===== -->
+  <section class="section hotel-section" id="hotel">
+    <div class="container">
+      <div class="hotel-inner">
+        <div class="hotel-image-side">
+          <div class="hotel-img-frame">
+            <img src="https://raw.githubusercontent.com/pritviraj04-hub/goa-tour-images/main/ramada-arpora.jpg" alt="Hotel Ramada Arpora" loading="lazy" />
+            <div class="hotel-img-badge">
+              <span>⭐⭐⭐⭐⭐</span>
+              <small>Premium Hotel</small>
+            </div>
+          </div>
+        </div>
+        <div class="hotel-info-side">
+          <span class="section-tag">Accommodation</span>
+          <h2 class="section-title left-align">Hotel Ramada Arpora</h2>
+          <p class="hotel-desc">A premium 5-star property nestled in the scenic hills of Arpora, Goa. The Ramada offers an unparalleled blend of luxury, comfort, and safety — making it the perfect base for our educational tour.</p>
+          <ul class="hotel-features">
+            <li>
+              <span class="feat-icon">🛏️</span>
+              <span><strong>Premium Rooms</strong> — Spacious, air-conditioned rooms with modern amenities</span>
+            </li>
+            <li>
+              <span class="feat-icon">🍽️</span>
+              <span><strong>Hygienic Dining</strong> — Dedicated dining area with clean, nutritious meals</span>
+            </li>
+            <li>
+              <span class="feat-icon">🏊</span>
+              <span><strong>Swimming Pool</strong> — Supervised pool access for students</span>
+            </li>
+            <li>
+              <span class="feat-icon">🔒</span>
+              <span><strong>24×7 Security</strong> — Round-the-clock professional security staff</span>
+            </li>
+            <li>
+              <span class="feat-icon">🌿</span>
+              <span><strong>Safe Environment</strong> — Student-friendly, secure premises throughout the stay</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SAFETY ===== -->
+  <section class="section safety-section" id="safety">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Your Child's Safety</span>
+        <h2 class="section-title">Safety &amp; Support</h2>
+        <p class="section-sub">Comprehensive safety measures ensuring a secure and worry-free experience</p>
+      </div>
+      <div class="safety-grid">
+        <div class="safety-card">
+          <div class="safety-icon">👨‍💼</div>
+          <h4>Experienced Tour Escorts</h4>
+          <p>Trained and experienced tour escorts accompany the group throughout the entire journey</p>
+        </div>
+        <div class="safety-card">
+          <div class="safety-icon">🏫</div>
+          <h4>School Teachers On-Board</h4>
+          <p>Dedicated school teachers accompany students — ensuring academic guidance and supervision</p>
+        </div>
+        <div class="safety-card">
+          <div class="safety-icon">🩺</div>
+          <h4>Doctor on Call</h4>
+          <p>Medical professional available on call throughout the tour for any health concerns</p>
+        </div>
+        <div class="safety-card">
+          <div class="safety-icon">🧰</div>
+          <h4>First Aid Support</h4>
+          <p>First aid kits and trained staff ready to handle minor medical situations immediately</p>
+        </div>
+        <div class="safety-card">
+          <div class="safety-icon">🛡️</div>
+          <h4>Travel Insurance</h4>
+          <p>Comprehensive travel insurance coverage for all students for the entire tour duration</p>
+        </div>
+        <div class="safety-card">
+          <div class="safety-icon">📞</div>
+          <h4>24×7 Emergency Support</h4>
+          <p>Round-the-clock emergency helpline with immediate response protocol in place</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Visual Journey</span>
+        <h2 class="section-title">Goa Gallery</h2>
+        <p class="section-sub">A glimpse of the beautiful experiences that await</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item large">
+          <img src="https://raw.githubusercontent.com/pritviraj04-hub/goa-tour-images/main/gallery1.jpg" alt="Gallery 1" loading="lazy" />
+          <div class="gallery-caption">Goa's Coastal Beauty</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://raw.githubusercontent.com/pritviraj04-hub/goa-tour-images/main/gallery2.jpg" alt="Gallery 2" loading="lazy" />
+          <div class="gallery-caption">Heritage Architecture</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://raw.githubusercontent.com/pritviraj04-hub/goa-tour-images/gallery3.jpg" alt="Gallery 3" loading="lazy" />
+          <div class="gallery-caption">Educational Experiences</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAP ===== -->
+  <section class="section map-section" id="map">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Navigation</span>
+        <h2 class="section-title">Tour Route Map</h2>
+        <p class="section-sub">Mumbai → Goa and back — a scenic train journey along India's western coast</p>
+      </div>
+      <div class="map-frame">
+        <img src="https://raw.githubusercontent.com/pritviraj04-hub/goa-tour-images/main/map-goa.jpg" alt="Goa Tour Route Map" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-wave">
+      <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#002a6e"/>
+      </svg>
+    </div>
+    <div class="footer-body">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="https://raw.githubusercontent.com/pritviraj04-hub/goa-tour-images/main/tour-india-logo.png" alt="Tour India Logo" class="footer-logo" />
+          <h3 class="footer-company">Tour India Tours &amp; Travels Pvt. Ltd.</h3>
+          <p class="footer-tagline">Educational Tour Specialists Since 1985</p>
+          <p class="footer-loc">📍 Mumbai | India</p>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>📞 <a href="tel:+919820431881">+91 9820431881</a></p>
+          <p>✉️ <a href="mailto:gargtourindia@yahoo.co.in">gargtourindia@yahoo.co.in</a></p>
+        </div>
+        <div class="footer-tour">
+          <h4>Tour Details</h4>
+          <p>Podar International School (ICSE), Nerul</p>
+          <p>Goa Educational Tour 2026</p>
+          <p>Grades X – XII</p>
+          <p>7 – 9 September 2026</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Tour India Tours &amp; Travels Pvt. Ltd. | All rights reserved.</p>
+        <p>Designed for Podar International School (ICSE), Nerul</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Intersection Observer for animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.overview-card, .place-card, .safety-card, .timeline-day, .gallery-item').forEach(el => {
+      el.classList.add('fade-in-card');
+      observer.observe(el);
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  </script>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script>
+function downloadPDF() {
+
+  const element = document.getElementById("pdf-content");
+
+  const opt = {
+    margin: 0,
+    filename: 'Goa_Educational_Tour.pdf',
+    image: { type: 'jpeg', quality: 1 },
+
+    html2canvas: {
+      scale: 2,
+      useCORS: true,
+      scrollY: 0
+    },
+
+    jsPDF: {
+      unit: 'mm',
+      format: 'a4',
+      orientation: 'portrait'
+    }
+  };
+
+  html2pdf()
+    .set(opt)
+    .from(element)
+    .save();
+
+}
+</script>
+</body>
+</html>
